@@ -1,0 +1,4 @@
+*******灯光对位********
+增加case  (main.cpp)
+
+写detectlight函数

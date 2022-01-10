@@ -1,0 +1,3 @@
+/home/lyk/桌面/RM_lyk/build/CMakeFiles/rebuild_cache.dir
+/home/lyk/桌面/RM_lyk/build/CMakeFiles/edit_cache.dir
+/home/lyk/桌面/RM_lyk/build/CMakeFiles/RM_LYK.dir

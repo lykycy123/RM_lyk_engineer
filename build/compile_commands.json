@@ -1,0 +1,132 @@
+[
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/main.cpp.o -c /home/lyk/桌面/RM_lyk/main.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/main.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/com/src/datatypes.cpp.o -c /home/lyk/桌面/RM_lyk/com/src/datatypes.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/com/src/datatypes.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/com/src/rmserial.cpp.o -c /home/lyk/桌面/RM_lyk/com/src/rmserial.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/com/src/rmserial.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/com/src/serial.cpp.o -c /home/lyk/桌面/RM_lyk/com/src/serial.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/com/src/serial.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/com/src/impl/unix.cpp.o -c /home/lyk/桌面/RM_lyk/com/src/impl/unix.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/com/src/impl/unix.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/com/src/impl/list_ports/list_ports_linux.cpp.o -c /home/lyk/桌面/RM_lyk/com/src/impl/list_ports/list_ports_linux.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/com/src/impl/list_ports/list_ports_linux.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/init/default_constructor.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/init/default_constructor.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/init/default_constructor.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/send/send_target.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/send/send_target.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/send/send_target.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_points.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/get/get_fit_points.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/get/get_fit_points.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/run.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/run.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/run.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_yellow.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/detect/detect_mineral_yellow.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/detect/detect_mineral_yellow.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/tool/sort.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/tool/sort.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/tool/sort.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/get/get_send_data.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/get/get_send_data.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/get/get_send_data.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/get/get_right_light.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/get/get_right_light.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/get/get_right_light.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/mor/mor_hang_high_mineral.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/mor/mor_hang_high_mineral.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_white.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/detect/detect_mineral_white.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/detect/detect_mineral_white.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/tool/gamma_transform.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/tool/gamma_transform.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/tool/gamma_transform.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/mor/mor_dropped_yellow_mineral.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/mor/mor_dropped_yellow_mineral.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_white_mineral.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/mor/mor_white_mineral.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/mor/mor_white_mineral.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_light.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/mor/mor_light.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/mor/mor_light.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_light.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/detect/detect_light.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/detect/detect_light.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/rmconfig/uvc_v4l2.cpp.o -c /home/lyk/桌面/RM_lyk/rmconfig/uvc_v4l2.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/rmconfig/uvc_v4l2.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/get/get_target_points.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/get/get_target_points.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/get/get_target_points.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/init/init_mineral.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/init/init_mineral.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/init/init_mineral.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/com/src/data_manager.cpp.o -c /home/lyk/桌面/RM_lyk/com/src/data_manager.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/com/src/data_manager.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_contours.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/get/get_fit_contours.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/get/get_fit_contours.cpp"
+}
+]
