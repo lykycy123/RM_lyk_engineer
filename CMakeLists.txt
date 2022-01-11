@@ -17,6 +17,7 @@ set(SOURCE_FILES main.cpp rmconfig/parameter.h
         mineral/run.cpp mineral/src/detect/detect_mineral_yellow.cpp
         mineral/src/tool/sort.cpp mineral/src/get/get_send_data.cpp
         mineral/src/tool/sort.cpp mineral/src/get/get_right_light.cpp
+        mineral/src/tool/sort.cpp mineral/src/get/get_light_contours.cpp
         rmconfig/parameter.h
         rmconfig/uvc_v4l2.h
         mineral/src/mor/mor_hang_high_mineral.cpp

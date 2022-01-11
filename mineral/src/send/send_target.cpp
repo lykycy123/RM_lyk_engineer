@@ -16,7 +16,7 @@ bool Mineral::sendTarget()
         locate_complete = data_manager.update_state(Number_white, target_points);
         g_rmSerial.send_data(*data);
     }
-    if (g_config_data.state == DETECT_LIGHT)
+    if (g_config_data.state == BIG_RESOURCE_ISLAND_AUTO_RUN_MODE2_DIRECTION)
     {
         locate_complete = data_manager.update_state(Number_yellow, target_points);
         g_rmSerial.send_data(*data);

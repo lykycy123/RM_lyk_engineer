@@ -71,6 +71,11 @@
 },
 {
   "directory": "/home/lyk/桌面/RM_lyk/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/get/get_light_contours.cpp",
+  "file": "/home/lyk/桌面/RM_lyk/mineral/src/get/get_light_contours.cpp"
+},
+{
+  "directory": "/home/lyk/桌面/RM_lyk/build",
   "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/lyk/桌面/RM_lyk/flash/include -I/home/lyk/桌面/RM_lyk/mineral/include -I/home/lyk/桌面/RM_lyk/com/include -I/home/lyk/桌面/RM_lyk/com/include/serial -I/home/lyk/桌面/RM_lyk/rmconfig -isystem /usr/local/include/opencv4  -g   -O3 -std=gnu++14 -o CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/mor/mor_hang_high_mineral.cpp",
   "file": "/home/lyk/桌面/RM_lyk/mineral/src/mor/mor_hang_high_mineral.cpp"
 },

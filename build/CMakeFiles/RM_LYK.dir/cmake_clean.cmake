@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_yellow.cpp.o"
   "CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_contours.cpp.o"
   "CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_points.cpp.o"
+  "CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.o"
   "CMakeFiles/RM_LYK.dir/mineral/src/get/get_right_light.cpp.o"
   "CMakeFiles/RM_LYK.dir/mineral/src/get/get_send_data.cpp.o"
   "CMakeFiles/RM_LYK.dir/mineral/src/get/get_target_points.cpp.o"

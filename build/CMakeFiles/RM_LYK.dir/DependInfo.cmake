@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lyk/桌面/RM_lyk/mineral/src/detect/detect_mineral_yellow.cpp" "/home/lyk/桌面/RM_lyk/build/CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_yellow.cpp.o"
   "/home/lyk/桌面/RM_lyk/mineral/src/get/get_fit_contours.cpp" "/home/lyk/桌面/RM_lyk/build/CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_contours.cpp.o"
   "/home/lyk/桌面/RM_lyk/mineral/src/get/get_fit_points.cpp" "/home/lyk/桌面/RM_lyk/build/CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_points.cpp.o"
+  "/home/lyk/桌面/RM_lyk/mineral/src/get/get_light_contours.cpp" "/home/lyk/桌面/RM_lyk/build/CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.o"
   "/home/lyk/桌面/RM_lyk/mineral/src/get/get_right_light.cpp" "/home/lyk/桌面/RM_lyk/build/CMakeFiles/RM_LYK.dir/mineral/src/get/get_right_light.cpp.o"
   "/home/lyk/桌面/RM_lyk/mineral/src/get/get_send_data.cpp" "/home/lyk/桌面/RM_lyk/build/CMakeFiles/RM_LYK.dir/mineral/src/get/get_send_data.cpp.o"
   "/home/lyk/桌面/RM_lyk/mineral/src/get/get_target_points.cpp" "/home/lyk/桌面/RM_lyk/build/CMakeFiles/RM_LYK.dir/mineral/src/get/get_target_points.cpp.o"

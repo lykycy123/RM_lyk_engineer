@@ -239,9 +239,22 @@ CMakeFiles/RM_LYK.dir/mineral/src/get/get_right_light.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_LYK.dir/mineral/src/get/get_right_light.cpp.s"
 	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyk/桌面/RM_lyk/mineral/src/get/get_right_light.cpp -o CMakeFiles/RM_LYK.dir/mineral/src/get/get_right_light.cpp.s
 
+CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
+CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.o: ../mineral/src/get/get_light_contours.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/get/get_light_contours.cpp
+
+CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lyk/桌面/RM_lyk/mineral/src/get/get_light_contours.cpp > CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.i
+
+CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lyk/桌面/RM_lyk/mineral/src/get/get_light_contours.cpp -o CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.s
+
 CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
 CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o: ../mineral/src/mor/mor_hang_high_mineral.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/mor/mor_hang_high_mineral.cpp
 
 CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_hang_high_mineral.cpp.i: cmake_force
@@ -254,7 +267,7 @@ CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_hang_high_mineral.cpp.s: cmake_force
 
 CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_white.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
 CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_white.cpp.o: ../mineral/src/detect/detect_mineral_white.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_white.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_white.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_white.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/detect/detect_mineral_white.cpp
 
 CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_white.cpp.i: cmake_force
@@ -267,7 +280,7 @@ CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_white.cpp.s: cmake_force
 
 CMakeFiles/RM_LYK.dir/mineral/src/tool/gamma_transform.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
 CMakeFiles/RM_LYK.dir/mineral/src/tool/gamma_transform.cpp.o: ../mineral/src/tool/gamma_transform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/tool/gamma_transform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/tool/gamma_transform.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/mineral/src/tool/gamma_transform.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/tool/gamma_transform.cpp
 
 CMakeFiles/RM_LYK.dir/mineral/src/tool/gamma_transform.cpp.i: cmake_force
@@ -280,7 +293,7 @@ CMakeFiles/RM_LYK.dir/mineral/src/tool/gamma_transform.cpp.s: cmake_force
 
 CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
 CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o: ../mineral/src/mor/mor_dropped_yellow_mineral.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/mor/mor_dropped_yellow_mineral.cpp
 
 CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.i: cmake_force
@@ -293,7 +306,7 @@ CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.s: cmake_fo
 
 CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_white_mineral.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
 CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_white_mineral.cpp.o: ../mineral/src/mor/mor_white_mineral.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_white_mineral.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_white_mineral.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_white_mineral.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/mor/mor_white_mineral.cpp
 
 CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_white_mineral.cpp.i: cmake_force
@@ -306,7 +319,7 @@ CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_white_mineral.cpp.s: cmake_force
 
 CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_light.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
 CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_light.cpp.o: ../mineral/src/mor/mor_light.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_light.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_light.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_light.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/mor/mor_light.cpp
 
 CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_light.cpp.i: cmake_force
@@ -319,7 +332,7 @@ CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_light.cpp.s: cmake_force
 
 CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_light.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
 CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_light.cpp.o: ../mineral/src/detect/detect_light.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_light.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_light.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_light.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/detect/detect_light.cpp
 
 CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_light.cpp.i: cmake_force
@@ -332,7 +345,7 @@ CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_light.cpp.s: cmake_force
 
 CMakeFiles/RM_LYK.dir/rmconfig/uvc_v4l2.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
 CMakeFiles/RM_LYK.dir/rmconfig/uvc_v4l2.cpp.o: ../rmconfig/uvc_v4l2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/RM_LYK.dir/rmconfig/uvc_v4l2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/RM_LYK.dir/rmconfig/uvc_v4l2.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/rmconfig/uvc_v4l2.cpp.o -c /home/lyk/桌面/RM_lyk/rmconfig/uvc_v4l2.cpp
 
 CMakeFiles/RM_LYK.dir/rmconfig/uvc_v4l2.cpp.i: cmake_force
@@ -345,7 +358,7 @@ CMakeFiles/RM_LYK.dir/rmconfig/uvc_v4l2.cpp.s: cmake_force
 
 CMakeFiles/RM_LYK.dir/mineral/src/get/get_target_points.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
 CMakeFiles/RM_LYK.dir/mineral/src/get/get_target_points.cpp.o: ../mineral/src/get/get_target_points.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/get/get_target_points.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/get/get_target_points.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/mineral/src/get/get_target_points.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/get/get_target_points.cpp
 
 CMakeFiles/RM_LYK.dir/mineral/src/get/get_target_points.cpp.i: cmake_force
@@ -358,7 +371,7 @@ CMakeFiles/RM_LYK.dir/mineral/src/get/get_target_points.cpp.s: cmake_force
 
 CMakeFiles/RM_LYK.dir/mineral/src/init/init_mineral.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
 CMakeFiles/RM_LYK.dir/mineral/src/init/init_mineral.cpp.o: ../mineral/src/init/init_mineral.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/init/init_mineral.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/init/init_mineral.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/mineral/src/init/init_mineral.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/init/init_mineral.cpp
 
 CMakeFiles/RM_LYK.dir/mineral/src/init/init_mineral.cpp.i: cmake_force
@@ -371,7 +384,7 @@ CMakeFiles/RM_LYK.dir/mineral/src/init/init_mineral.cpp.s: cmake_force
 
 CMakeFiles/RM_LYK.dir/com/src/data_manager.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
 CMakeFiles/RM_LYK.dir/com/src/data_manager.cpp.o: ../com/src/data_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/RM_LYK.dir/com/src/data_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/RM_LYK.dir/com/src/data_manager.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/com/src/data_manager.cpp.o -c /home/lyk/桌面/RM_lyk/com/src/data_manager.cpp
 
 CMakeFiles/RM_LYK.dir/com/src/data_manager.cpp.i: cmake_force
@@ -384,7 +397,7 @@ CMakeFiles/RM_LYK.dir/com/src/data_manager.cpp.s: cmake_force
 
 CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_contours.cpp.o: CMakeFiles/RM_LYK.dir/flags.make
 CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_contours.cpp.o: ../mineral/src/get/get_fit_contours.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_contours.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_contours.cpp.o"
 	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_contours.cpp.o -c /home/lyk/桌面/RM_lyk/mineral/src/get/get_fit_contours.cpp
 
 CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_contours.cpp.i: cmake_force
@@ -411,6 +424,7 @@ RM_LYK_OBJECTS = \
 "CMakeFiles/RM_LYK.dir/mineral/src/tool/sort.cpp.o" \
 "CMakeFiles/RM_LYK.dir/mineral/src/get/get_send_data.cpp.o" \
 "CMakeFiles/RM_LYK.dir/mineral/src/get/get_right_light.cpp.o" \
+"CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.o" \
 "CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o" \
 "CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_white.cpp.o" \
 "CMakeFiles/RM_LYK.dir/mineral/src/tool/gamma_transform.cpp.o" \
@@ -441,6 +455,7 @@ RM_LYK: CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_yellow.cpp.o
 RM_LYK: CMakeFiles/RM_LYK.dir/mineral/src/tool/sort.cpp.o
 RM_LYK: CMakeFiles/RM_LYK.dir/mineral/src/get/get_send_data.cpp.o
 RM_LYK: CMakeFiles/RM_LYK.dir/mineral/src/get/get_right_light.cpp.o
+RM_LYK: CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.o
 RM_LYK: CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o
 RM_LYK: CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_white.cpp.o
 RM_LYK: CMakeFiles/RM_LYK.dir/mineral/src/tool/gamma_transform.cpp.o
@@ -511,7 +526,7 @@ RM_LYK: /usr/local/lib/libopencv_photo.so.4.5.4
 RM_LYK: /usr/local/lib/libopencv_imgproc.so.4.5.4
 RM_LYK: /usr/local/lib/libopencv_core.so.4.5.4
 RM_LYK: CMakeFiles/RM_LYK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable RM_LYK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lyk/桌面/RM_lyk/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable RM_LYK"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RM_LYK.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

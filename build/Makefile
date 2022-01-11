@@ -474,6 +474,33 @@ mineral/src/get/get_fit_points.cpp.s:
 	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/get/get_fit_points.cpp.s
 .PHONY : mineral/src/get/get_fit_points.cpp.s
 
+mineral/src/get/get_light_contours.o: mineral/src/get/get_light_contours.cpp.o
+
+.PHONY : mineral/src/get/get_light_contours.o
+
+# target to build an object file
+mineral/src/get/get_light_contours.cpp.o:
+	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.o
+.PHONY : mineral/src/get/get_light_contours.cpp.o
+
+mineral/src/get/get_light_contours.i: mineral/src/get/get_light_contours.cpp.i
+
+.PHONY : mineral/src/get/get_light_contours.i
+
+# target to preprocess a source file
+mineral/src/get/get_light_contours.cpp.i:
+	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.i
+.PHONY : mineral/src/get/get_light_contours.cpp.i
+
+mineral/src/get/get_light_contours.s: mineral/src/get/get_light_contours.cpp.s
+
+.PHONY : mineral/src/get/get_light_contours.s
+
+# target to generate assembly for a file
+mineral/src/get/get_light_contours.cpp.s:
+	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/get/get_light_contours.cpp.s
+.PHONY : mineral/src/get/get_light_contours.cpp.s
+
 mineral/src/get/get_right_light.o: mineral/src/get/get_right_light.cpp.o
 
 .PHONY : mineral/src/get/get_right_light.o
@@ -873,6 +900,9 @@ help:
 	@echo "... mineral/src/get/get_fit_points.o"
 	@echo "... mineral/src/get/get_fit_points.i"
 	@echo "... mineral/src/get/get_fit_points.s"
+	@echo "... mineral/src/get/get_light_contours.o"
+	@echo "... mineral/src/get/get_light_contours.i"
+	@echo "... mineral/src/get/get_light_contours.s"
 	@echo "... mineral/src/get/get_right_light.o"
 	@echo "... mineral/src/get/get_right_light.i"
 	@echo "... mineral/src/get/get_right_light.s"

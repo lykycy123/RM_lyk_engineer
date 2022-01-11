@@ -90,7 +90,17 @@ public:
      * 3、版本：Version 1.0
      */
     
-    void getRightLight(const Mat &operand,const Mat &preimage);
+    void getRightLight(const Mat &operand,const Mat &preimage,const Mat output);
+
+
+    /*
+     * 函数说明：
+     * 1、功能说明：灯的轮廓
+     * 2、参数说明：
+     * 3、版本：Version 1.0
+     */
+    void getlightcontours(Mat &dst, Mat &BackGround);
+
 
     /*
      * 函数说明：
