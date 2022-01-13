@@ -11,14 +11,16 @@ using namespace cv;
 
 extern RmParameter g_para;
 
-enum TemplateMatchModes {
-    X_INCREASE  = 1,
+enum TemplateMatchModes
+{
+    X_INCREASE = 1,
     X_DECREASE = -1,
-    Y_INCREASE  = 2,
+    Y_INCREASE = 2,
     Y_DECREASE = -2
 };
 
-class Mineral{
+class Mineral
+{
 public:
     /*
      * 函数说明：
@@ -27,12 +29,10 @@ public:
      */
     Mineral();
 
-
     /*
      * 函数说明：什么也没做，打算把一些初始化封装在此函数中
      */
-    bool initMineral();                                                             //do nothing
-
+    bool initMineral(); //do nothing
 
     /*
      * 函数说明：未曾优化/实际测试
@@ -59,7 +59,16 @@ public:
      *      Mat &operand摄像机读取的图像
      * 3、版本：Version 1.0
      */
-    void detectlight(const Mat &operand,const Mat &preimage);
+    void detectlight(const Mat &operand, const Mat &preimage);
+
+    /*
+     * 函数说明
+     * 1、用途：兑换站
+     * 2、参数：
+     *      Mat &operand摄像机读取的图像
+     * 3、版本：Version 1.0
+     */
+    void detectSold(const Mat &operand);
 
     /*
      * 函数说明：
@@ -71,7 +80,7 @@ public:
                         悬空 FREE_MODE 4
                         灯光对位 DETECT_LIGHT 5
      */
-    bool sendTarget() ;
+    bool sendTarget();
 
     /*
      * 函数说明：
@@ -81,7 +90,7 @@ public:
      *          std::vector<Point> &fitPoints   目标容器，将矩形中心点放入其中
      * 3、版本：Version 3.0
      */
-    void getFitPoints(std::vector<Rect> &fitRects,std::vector<Point> &fitPoints);
+    void getFitPoints(std::vector<Rect> &fitRects, std::vector<Point> &fitPoints);
 
     /*
      * 函数说明：
@@ -89,9 +98,8 @@ public:
      * 2、参数说明：
      * 3、版本：Version 1.0
      */
-    
-    void getRightLight(const Mat &operand,const Mat &preimage,const Mat output);
 
+    void getRightLight(const Mat &operand, const Mat &preimage, const Mat output);
 
     /*
      * 函数说明：
@@ -101,6 +109,13 @@ public:
      */
     void getlightcontours(Mat &dst, Mat &BackGround);
 
+    /*
+     * 函数说明：
+     * 1、功能说明：兑换站的轮廓
+     * 2、参数说明：
+     * 3、版本：Version 1.0
+     */
+    void getSoldContours(Mat &dst, Mat &BackGround);
 
     /*
      * 函数说明：
@@ -112,7 +127,7 @@ public:
                                 Y_DECREASE  按Y降序排列
      * 3、版本：V3.0 （效率最大化）
      */
-    void sortPointsVector(std::vector<cv::Point> &all_fit_points,int flag);
+    void sortPointsVector(std::vector<cv::Point> &all_fit_points, int flag);
 
     /*
      * 函数说明：
@@ -121,8 +136,7 @@ public:
      *            Mat &dist 输出图像
      * 3、版本 V1.0
      */
-    void GammaTransform(Mat &image,Mat &dist);
-
+    void GammaTransform(Mat &image, Mat &dist);
 
     /*
      * 函数说明：
@@ -138,7 +152,7 @@ public:
      * 2、参数说明：V4L2Capture &cap 摄像头实例
      * 3、版本 V1.0
      */
-    void runSmallResourceIsland(V4L2Capture & cap);
+    void runSmallResourceIsland(V4L2Capture &cap);
 
     /*
      * 函数说明：灯光对位主函数
@@ -148,6 +162,13 @@ public:
      */
     void runlight(V4L2Capture &cap);
 
+    /*
+     * 函数说明：兑换站
+     * 1、功能说明:主函数
+     * 2、参数说明：V4L2Capture &cap 摄像头实例
+     * 3、版本 V1.0
+     */
+    void runSold(V4L2Capture &cap);
 
     /*
      * 函数说明：
@@ -157,41 +178,43 @@ public:
      *              std::vector<Point> &target_points               目标点容器
      * 3、版本 V1.0
      */
-    void getTargetPoints(const std::vector<cv::Point> &all_fit_points,std::vector<Point> &target_points);
+    void getTargetPoints(const std::vector<cv::Point> &all_fit_points, std::vector<Point> &target_points);
 
-    void getSendData(SendData &data,int index);                                     //never used
-    void getSendData(SendData &data);                                               //never used
-    void MorMineral(Mat & operand,Mat &output);                                     //never used
+    void getSendData(SendData &data, int index); //never used
+    void getSendData(SendData &data);            //never used
+    void MorMineral(Mat &operand, Mat &output);  //never used
 
-    void MorYellowMineral(const Mat & operand,Mat &output) const;                   //Mor Yellow
-    void MorWhiteMineral(Mat & operand,Mat &output);                                //Mor White
-    void Morlight(const Mat & operand,Mat &output) const;                                  //Mor light
+    void MorYellowMineral(const Mat &operand, Mat &output) const; //Mor Yellow
+    void MorWhiteMineral(Mat &operand, Mat &output);              //Mor White
+    void Morlight(const Mat &operand, Mat &output) const;         //Mor light
+    void MorSold(const Mat &operand, Mat &output) const;
 
-
-    void getFitContours(Mat &dst,Mat &BackGround);
+    void getFitContours(Mat &dst, Mat &BackGround);
 
 private:
-    std::vector<Rect>    all_fit_rects;
-    std::vector<Point>   all_fit_points;
-    std::vector<Point>   target_points;
+    std::vector<Rect> all_fit_rects;
+    std::vector<Point> all_fit_points;
+    std::vector<Point> target_points;
     Mat src;
     bool locate_complete;
     int Number_yellow;
     int Number_white;
     static const int threshold_error = 324;
-
 };
 
-inline auto minPoint(Point first,Point second){
-    if (abs(first.x-360)>(second.x-360))
+inline auto minPoint(Point first, Point second)
+{
+    if (abs(first.x - 360) > (second.x - 360))
         return second;
-    else return first;
+    else
+        return first;
 }
 
-//inline auto minPoint(Point first,Point second,Point third){
-//    Point temp;
-//    temp = abs(first.x-360)>abs(second.x-360)?second:first;
-//    temp = abs(first.x-360)>abs(third.x-360)?third:first;
-//    temp = abs(second.x-360)>abs(third.x-360)?third:second;
-//    return temp;
-//}
+inline auto minPoint(Point first, Point second, Point third)
+{
+    Point temp;
+    temp = abs(first.x - 360) > abs(second.x - 360) ? second : first;
+    temp = abs(first.x - 360) > abs(third.x - 360) ? third : first;
+    temp = abs(second.x - 360) > abs(third.x - 360) ? third : second;
+    return temp;
+}

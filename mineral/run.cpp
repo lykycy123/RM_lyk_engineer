@@ -54,12 +54,32 @@ void Mineral::runlight(V4L2Capture &cap)
                 break;
             }
         }
-        if(preimage.empty())
+        if (preimage.empty())
         {
-            preimage=src.clone();
+            preimage = src.clone();
         }
-        detectlight(src,preimage);
+        detectlight(src, preimage);
         waitKey(333);
         cap >> preimage;
+    }
+}
+
+void Mineral::runSold(V4L2Capture &cap)
+{
+
+    locate_complete = false;
+    while (g_config_data.state == SOLD_AUTO_RUN &&
+           g_config_data.start && !locate_complete)
+    {
+        if (use_cam)
+        {
+            cap >> src;
+            if (src.empty())
+            {
+                cout << "empty" << endl;
+                break;
+            }
+        }
+        detectSold(src);
     }
 }

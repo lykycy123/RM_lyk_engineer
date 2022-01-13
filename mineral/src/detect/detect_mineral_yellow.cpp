@@ -22,7 +22,7 @@ void Mineral::detectYellowMineral(const Mat &operand){
         sortPointsVector(all_fit_points, X_INCREASE);
 
         //get target points:the center of each points
-        getTargetPoints(all_fit_points, target_points);
+        target_points = all_fit_points;
 
         Number_yellow = target_points.size();
 

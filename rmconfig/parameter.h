@@ -68,4 +68,20 @@ struct RmParameter
     const double light_threshold_area_high = 500; //600
     const double light_threshold_canny_low = 30;
     const double light_threshold_canny_high = 100;
+
+
+    /*
+    * 参数说明：
+    * 1、用于检测兑换站
+    * 2、比例条件和面积条件
+    * 3、二值化阈值说明：待补充
+    */
+    const double sold_threshold_scale_low = 0.1;
+    const double sold_threshold_scale_high = 0.4;
+    const double sold_threshold_area_low = 400;    
+    const double sold_threshold_area_high = 5000; //600
+    const double sold_threshold_canny_low = 30;
+    const double sold_threshold_canny_high = 100;
+
+
 };

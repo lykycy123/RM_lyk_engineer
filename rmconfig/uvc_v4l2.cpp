@@ -361,6 +361,9 @@ V4L2Capture& V4L2Capture::operator >> (cv::Mat &img)
 
     //释放图像
     backFrame();
+
+    return *this;
+
 }
 
 

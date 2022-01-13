@@ -29,6 +29,8 @@ void Mineral::detectlight(const Mat &operand,const Mat &preimage)
 
         Number_yellow=all_fit_points.size();
 
+        target_points = all_fit_points;
+
 
         //发送数据
         sendTarget();

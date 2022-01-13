@@ -2,3 +2,10 @@
 增加case  (main.cpp)
 
 写detectlight函数
+
+
+灯的约束条件未测试
+
+兑换站的约束条件
+
+灯光方向模式dataerror改0，方向发o

@@ -15,9 +15,11 @@ set(SOURCE_FILES main.cpp rmconfig/parameter.h
         mineral/src/send/send_target.cpp
         mineral/src/get/get_fit_points.cpp
         mineral/run.cpp mineral/src/detect/detect_mineral_yellow.cpp
+        mineral/run.cpp mineral/src/detect/detect_sold.cpp
         mineral/src/tool/sort.cpp mineral/src/get/get_send_data.cpp
         mineral/src/tool/sort.cpp mineral/src/get/get_right_light.cpp
         mineral/src/tool/sort.cpp mineral/src/get/get_light_contours.cpp
+        mineral/src/tool/sort.cpp mineral/src/get/get_sold_contours.cpp
         rmconfig/parameter.h
         rmconfig/uvc_v4l2.h
         mineral/src/mor/mor_hang_high_mineral.cpp
@@ -27,6 +29,7 @@ set(SOURCE_FILES main.cpp rmconfig/parameter.h
         mineral/src/mor/mor_hang_high_mineral.cpp
         mineral/src/mor/mor_white_mineral.cpp
         mineral/src/mor/mor_light.cpp
+        mineral/src/mor/mor_sold.cpp
         com/include/datatypes.h
         com/include/rmserial.h
         com/include/serial/serial.h

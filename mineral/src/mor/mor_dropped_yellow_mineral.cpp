@@ -3,7 +3,8 @@
 //
 
 #include <mineral.h>
-void Mineral::MorYellowMineral(const Mat & operand,Mat &output) const {
+void Mineral::MorYellowMineral(const Mat & operand,Mat &output) const 
+{
     vector<Mat> hsvSplit;
     cvtColor(operand,output, COLOR_BGR2HSV);
     split(output, hsvSplit);

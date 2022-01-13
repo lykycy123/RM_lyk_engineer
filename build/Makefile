@@ -420,6 +420,33 @@ mineral/src/detect/detect_mineral_yellow.cpp.s:
 	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_mineral_yellow.cpp.s
 .PHONY : mineral/src/detect/detect_mineral_yellow.cpp.s
 
+mineral/src/detect/detect_sold.o: mineral/src/detect/detect_sold.cpp.o
+
+.PHONY : mineral/src/detect/detect_sold.o
+
+# target to build an object file
+mineral/src/detect/detect_sold.cpp.o:
+	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_sold.cpp.o
+.PHONY : mineral/src/detect/detect_sold.cpp.o
+
+mineral/src/detect/detect_sold.i: mineral/src/detect/detect_sold.cpp.i
+
+.PHONY : mineral/src/detect/detect_sold.i
+
+# target to preprocess a source file
+mineral/src/detect/detect_sold.cpp.i:
+	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_sold.cpp.i
+.PHONY : mineral/src/detect/detect_sold.cpp.i
+
+mineral/src/detect/detect_sold.s: mineral/src/detect/detect_sold.cpp.s
+
+.PHONY : mineral/src/detect/detect_sold.s
+
+# target to generate assembly for a file
+mineral/src/detect/detect_sold.cpp.s:
+	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/detect/detect_sold.cpp.s
+.PHONY : mineral/src/detect/detect_sold.cpp.s
+
 mineral/src/get/get_fit_contours.o: mineral/src/get/get_fit_contours.cpp.o
 
 .PHONY : mineral/src/get/get_fit_contours.o
@@ -554,6 +581,33 @@ mineral/src/get/get_send_data.s: mineral/src/get/get_send_data.cpp.s
 mineral/src/get/get_send_data.cpp.s:
 	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/get/get_send_data.cpp.s
 .PHONY : mineral/src/get/get_send_data.cpp.s
+
+mineral/src/get/get_sold_contours.o: mineral/src/get/get_sold_contours.cpp.o
+
+.PHONY : mineral/src/get/get_sold_contours.o
+
+# target to build an object file
+mineral/src/get/get_sold_contours.cpp.o:
+	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/get/get_sold_contours.cpp.o
+.PHONY : mineral/src/get/get_sold_contours.cpp.o
+
+mineral/src/get/get_sold_contours.i: mineral/src/get/get_sold_contours.cpp.i
+
+.PHONY : mineral/src/get/get_sold_contours.i
+
+# target to preprocess a source file
+mineral/src/get/get_sold_contours.cpp.i:
+	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/get/get_sold_contours.cpp.i
+.PHONY : mineral/src/get/get_sold_contours.cpp.i
+
+mineral/src/get/get_sold_contours.s: mineral/src/get/get_sold_contours.cpp.s
+
+.PHONY : mineral/src/get/get_sold_contours.s
+
+# target to generate assembly for a file
+mineral/src/get/get_sold_contours.cpp.s:
+	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/get/get_sold_contours.cpp.s
+.PHONY : mineral/src/get/get_sold_contours.cpp.s
 
 mineral/src/get/get_target_points.o: mineral/src/get/get_target_points.cpp.o
 
@@ -716,6 +770,33 @@ mineral/src/mor/mor_light.s: mineral/src/mor/mor_light.cpp.s
 mineral/src/mor/mor_light.cpp.s:
 	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_light.cpp.s
 .PHONY : mineral/src/mor/mor_light.cpp.s
+
+mineral/src/mor/mor_sold.o: mineral/src/mor/mor_sold.cpp.o
+
+.PHONY : mineral/src/mor/mor_sold.o
+
+# target to build an object file
+mineral/src/mor/mor_sold.cpp.o:
+	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_sold.cpp.o
+.PHONY : mineral/src/mor/mor_sold.cpp.o
+
+mineral/src/mor/mor_sold.i: mineral/src/mor/mor_sold.cpp.i
+
+.PHONY : mineral/src/mor/mor_sold.i
+
+# target to preprocess a source file
+mineral/src/mor/mor_sold.cpp.i:
+	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_sold.cpp.i
+.PHONY : mineral/src/mor/mor_sold.cpp.i
+
+mineral/src/mor/mor_sold.s: mineral/src/mor/mor_sold.cpp.s
+
+.PHONY : mineral/src/mor/mor_sold.s
+
+# target to generate assembly for a file
+mineral/src/mor/mor_sold.cpp.s:
+	$(MAKE) -f CMakeFiles/RM_LYK.dir/build.make CMakeFiles/RM_LYK.dir/mineral/src/mor/mor_sold.cpp.s
+.PHONY : mineral/src/mor/mor_sold.cpp.s
 
 mineral/src/mor/mor_white_mineral.o: mineral/src/mor/mor_white_mineral.cpp.o
 
@@ -894,6 +975,9 @@ help:
 	@echo "... mineral/src/detect/detect_mineral_yellow.o"
 	@echo "... mineral/src/detect/detect_mineral_yellow.i"
 	@echo "... mineral/src/detect/detect_mineral_yellow.s"
+	@echo "... mineral/src/detect/detect_sold.o"
+	@echo "... mineral/src/detect/detect_sold.i"
+	@echo "... mineral/src/detect/detect_sold.s"
 	@echo "... mineral/src/get/get_fit_contours.o"
 	@echo "... mineral/src/get/get_fit_contours.i"
 	@echo "... mineral/src/get/get_fit_contours.s"
@@ -909,6 +993,9 @@ help:
 	@echo "... mineral/src/get/get_send_data.o"
 	@echo "... mineral/src/get/get_send_data.i"
 	@echo "... mineral/src/get/get_send_data.s"
+	@echo "... mineral/src/get/get_sold_contours.o"
+	@echo "... mineral/src/get/get_sold_contours.i"
+	@echo "... mineral/src/get/get_sold_contours.s"
 	@echo "... mineral/src/get/get_target_points.o"
 	@echo "... mineral/src/get/get_target_points.i"
 	@echo "... mineral/src/get/get_target_points.s"
@@ -927,6 +1014,9 @@ help:
 	@echo "... mineral/src/mor/mor_light.o"
 	@echo "... mineral/src/mor/mor_light.i"
 	@echo "... mineral/src/mor/mor_light.s"
+	@echo "... mineral/src/mor/mor_sold.o"
+	@echo "... mineral/src/mor/mor_sold.i"
+	@echo "... mineral/src/mor/mor_sold.s"
 	@echo "... mineral/src/mor/mor_white_mineral.o"
 	@echo "... mineral/src/mor/mor_white_mineral.i"
 	@echo "... mineral/src/mor/mor_white_mineral.s"

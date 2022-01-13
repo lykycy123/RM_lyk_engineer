@@ -48,6 +48,7 @@ int main()
             imshow("current frame", temp);
             waitKey(1);
         }
+        break;
         case BIG_RESOURCE_ISLAND_AUTO_RUN_MODE2_DIRECTION:
         {
             cout << "Mode:DETECT_LIGHT" << endl;
@@ -55,6 +56,19 @@ int main()
             MineralDetector->runlight(cap_t);
         }
         break;
+        case SOLD_AUTO_RUN:
+        {
+            cout << "Mode:SOLD_AUTO_RUN" << endl;
+
+            MineralDetector->runSold(cap_t);
+        }
+        break;
+
+        case BIG_RESOURCE_ISLAND_AUTO_RUN_MODE2_ADJUSTMENT:
+        {
+            cout << "Mode:BIG_RESOURCE_ISLAND_AUTO_RUN_MODE2_ADJUSTMENT" << endl;
+            MineralDetector->runBigResourceIsland(cap_t); 
+        }
         default:
             return 0;
         }
